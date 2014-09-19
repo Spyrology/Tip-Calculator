@@ -9,7 +9,7 @@ window.onload = function () {
 		var tipCost = subTotal * tipRate * .01;
 		var totalCost = subTotal + tipCost;
 
-		alert("Your meal cost: $" + baseCost + "\n Your subtotal is: $" + subTotal + "\n Tip: $" + tipCost + "\n Total: $" + totalCost);
+		alert("Your meal cost: $" + baseCost + "\n Tax: $" + taxCost + "\n Your subtotal is: $" + subTotal + "\n Tip: $" + tipCost + "\n Total: $" + totalCost);
 	};
 
 	totals();
